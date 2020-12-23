@@ -3,8 +3,8 @@
 * @returns {boolean} - Is val a number
 */
 function isNumber(value) {
-  if (typeof value === 'number')
-  return true
+  
+  return typeof(value) ==="number"
 
 }
 
@@ -12,11 +12,8 @@ function isNumber(value) {
 * @param {any} val - The input value
 * @returns {boolean} - Is val truthy
 */
-function isTruthy(a) {
-  const a = 10;
-  if(a == "10")
-  console.log("Condition is true")
-
+function isTruthy(val) {
+  return Boolean(val)
 }
 
 
