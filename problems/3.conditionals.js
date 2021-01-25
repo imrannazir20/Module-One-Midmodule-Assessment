@@ -19,8 +19,6 @@ return"It's alright"
 function temperatureMessageUsingTernary(temp) {
   
   return temp >= 32 ? "It's alright" : "It's freezing!"
-  
-
 }
 
 

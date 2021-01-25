@@ -12,7 +12,6 @@ console.log(`Hello ${name}!`)
 */
 function greeting(name) {
   return `Hello ${name}!`
-
 }
 
 /** Adds a number to a global variable called globalCount

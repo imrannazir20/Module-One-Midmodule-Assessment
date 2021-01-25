@@ -5,7 +5,6 @@
 function isNumber(value) {
   
   return typeof(value) ==="number"
-
 }
 
 /** Takes in a value and returns whether it is truthy
